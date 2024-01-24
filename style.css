@@ -78,7 +78,7 @@ nav ul img {
   margin: 0.1vh 1vh;
   border: 0.1vh solid rgb(38, 35, 35);
   border-radius: 2vh;
-  padding: 1vh 0;
+  padding: 1vh 5px;
 }
 
 .songItem img {
@@ -116,5 +116,8 @@ nav ul img {
   }
   .bottom {
     height: 10vh;
+  }
+  .songItem {
+    margin: 0.1vh 0.5vh;
   }
 }
