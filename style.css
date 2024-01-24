@@ -78,7 +78,7 @@ nav ul img {
   margin: 0.1vh 1vh;
   border: 0.1vh solid rgb(38, 35, 35);
   border-radius: 2vh;
-  padding: 1vh 5px;
+  padding: 1vh 0;
 }
 
 .songItem img {
@@ -95,6 +95,7 @@ nav ul img {
 }
 .songlistplay {
   margin-left: auto;
+  margin-right: 10px;
 }
 .timestamp {
   display: flex;
