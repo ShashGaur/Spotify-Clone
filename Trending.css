@@ -16,9 +16,17 @@ nav ul {
   background-color: black;
   color: whitesmoke;
 }
-.brand {
+.brand a {
   display: flex;
   align-items: center;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
 }
 nav ul li {
   margin: 0 1vh;

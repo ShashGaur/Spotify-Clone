@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  background-color: black;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #f0e7e7;
+}
+p {
+  text-align: justify;
+  color: #ccb8b8;
+}
+.mission,
+.offer {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.offer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
+nav ul {
+  display: flex;
+  height: 4vh;
+  align-items: center;
+  list-style: none;
+  font-size: 2vh;
+  background-color: black;
+
+  color: whitesmoke;
+}
+.nav {
+  position: fixed;
+  top: 0px;
+}
+.brand a {
+  display: flex;
+  align-items: center;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+nav ul li {
+  margin: 0 1vh;
+  max-height: 90%;
+}
+nav ul img {
+  width: 3vh;
+  max-height: 80%;
+}
